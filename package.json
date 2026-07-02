@@ -1,0 +1,15 @@
+{
+  "name": "eks-argocd-capstone",
+  "version": "1.0.0",
+  "description": "Month 5 Capstone: EKS + ArgoCD + GitOps",
+  "main": "app/server.js",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "jest --coverage --forceExit",
+    "dev": "nodemon app/server.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"]
+  }
+}
